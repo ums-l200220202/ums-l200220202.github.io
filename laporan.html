@@ -6,44 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laporan Clustering</title>
     <style>
+        /* Global Styles */
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            background: #f4f7f9;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #3498db;
+        }
+
+        h2 {
+            margin-top: 20px;
             color: #2c3e50;
+            text-align: center;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+            color: #34495e;
+        }
+
+        p {
+            color: #34495e;
+            margin-bottom: 20px;
         }
 
         .cluster {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            background: #ecf8ff;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #95a5a6;
         }
     </style>
 </head>
 
 <body>
-    <h1>Laporan Hasil Clustering</h1>
-    <p>Data diproses dan dianalisis dengan metode TF-IDF dan algoritma KMeans untuk membuat 3, 4, dan 5 klaster.</p>
-    <h2>Analisis</h2>
-    <div>
-        <h3>Hasil Clustering (3 Klaster)</h3>
-        <p>Klaster 1: disertakan, media, tidak</p>
-        <p>Klaster 2: dihapus, pesan, ini</p>
-        <p>Klaster 3: siap, kak, infonya</p>
-
-        <h3>Hasil Clustering (4 Klaster)</h3>
-        <p>Klaster 1: alhamdulillah, mas, assalamualaikum</p>
-        <p>Klaster 2: dihapus, pesan, ini</p>
-        <p>Klaster 3: siap, kak, infonya</p>
-        <p>Klaster 4: disertakan, media, tidak</p>
-
-        <h3>Hasil Clustering (5 Klaster)</h3>
-        <p>Klaster 1: alhamdulillah, mas, ya</p>
-        <p>Klaster 2: dihapus, pesan, ini</p>
-        <p>Klaster 3: siap, kak, infonya</p>
-        <p>Klaster 4: disertakan, media, tidak</p>
-        <p>Klaster 5: assalamualaikum, kurang, kelompoknya</p>
-    </div>
+    <main>
+        <h1>Laporan Hasil Clustering</h1>
+        <p>Data diproses dan dianalisis dengan metode TF-IDF dan algoritma KMeans untuk membuat 3, 4, dan 5 klaster.</p>
+        <h2>Analisis</h2>
+        <div>
+            <div class="cluster">
+                <h3>Hasil Clustering (3 Klaster)</h3>
+                <p>Klaster 1: disertakan, media, tidak</p>
+                <p>Klaster 2: dihapus, pesan, ini</p>
+                <p>Klaster 3: siap, kak, infonya</p>
+            </div>
+            <div class="cluster">
+                <h3>Hasil Clustering (4 Klaster)</h3>
+                <p>Klaster 1: alhamdulillah, mas, assalamualaikum</p>
+                <p>Klaster 2: dihapus, pesan, ini</p>
+                <p>Klaster 3: siap, kak, infonya</p>
+                <p>Klaster 4: disertakan, media, tidak</p>
+            </div>
+            <div class="cluster">
+                <h3>Hasil Clustering (5 Klaster)</h3>
+                <p>Klaster 1: alhamdulillah, mas, ya</p>
+                <p>Klaster 2: dihapus, pesan, ini</p>
+                <p>Klaster 3: siap, kak, infonya</p>
+                <p>Klaster 4: disertakan, media, tidak</p>
+                <p>Klaster 5: assalamualaikum, kurang, kelompoknya</p>
+            </div>
+        </div>
+    </main>
+    <footer>&copy; 2025 Analisis Data - Laporan Clustering</footer>
 </body>
 
 </html>
